@@ -3,15 +3,23 @@ package stunda2;
 public class Main {
 
     public static void main(String[] args) {
-//        1	Make the cookie batter.
-baking();
-decorating();
-//        2	Bake the cookies.
 
-//        3	Add frosting and sprinkles.
+sum("3","6");
+sum(12,14);
+sum(13,15,16);
 
-
-
+        }
+        public static void sum(int a, int b){
+        int rez=a+b;
+            System.out.println("Skaitu summa ir "+rez);
+    }
+    public static void sum(int a, int b,int c){
+        int rez=a+b+c;
+        System.out.println("Skaitu summa ir "+rez);
+    }
+    public static void sum(String a, String b){
+        String rez=a+b;
+        System.out.println("Virkņu summa ir "+rez);
     }
     public static void batter(){
         System.out.println("Mix the dry ingredients.");
